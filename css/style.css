@@ -1,0 +1,118 @@
+#main-navbar{
+background-color: black;
+overflow: hidden;
+width: 100%;
+position:relative;
+}
+#navbar-container ul{
+list-style-type: none;
+display: block;
+float: left;
+position: relative;
+margin: 0;
+padding: 0;
+right: 50%;
+}
+#navbar-container{
+position: relative;
+float: left;
+left: 50%;
+display: block;
+}
+
+#navbar-container ul li{
+float: left;
+padding: 10px 20px;
+}
+#navbar-container ul li a{
+color: #fff;
+text-decoration: none;
+	display:block;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	width: 100px;
+	padding: 5px 25px 10px 10px;
+	border-radius:5px 50px;
+	border-style:double;
+	font-family: Arial, sans-serif;
+}
+#main-navbar ul li a:hover{
+	background-color:red;
+	color:black;
+	border-radius:50px 5px;
+	
+}
+
+#body1{
+	background-color:yellow;
+}
+#body2{
+	background-color:lime;
+}
+#body3{
+	background-color:orange;
+}
+h1{
+	font-size:75px;
+	font-family:Righteous,times,Arial;
+}
+h2{
+	font-family:Play, sans-serif;
+}
+p{
+	font-family: Arial, sans-serif;
+}
+#boring{
+	background-color: aqua;
+	width: 15%;
+	height: 5%;
+	position: fixed;
+	top:500px;
+	right:900px;
+}
+
+#firstpar{
+	font-size:40px;
+	background-color: yellow;
+	width: 45%;
+	height: 25%;
+	float: left;
+}
+#pool{
+	float:right;
+}
+#bulb{
+	position: absolute;
+	top: 1200px;
+	left:100px;
+}
+#audio{
+	position: absolute;
+	top: 900px;
+	font-size:40px;
+}
+#lpotl{
+	position: absolute;
+	top: 1200px;
+}
+#audios{
+	position: absolute;
+	width:25%;
+	top: 975px;
+	font-size:25px;
+}
+#mel1{
+	Float:right;
+	font-size:30px;
+	width:45%;
+	
+}
+#mp1{
+	float:left;
+}
+#mel2{
+	position:absolute;
+	top:950px;
+}
