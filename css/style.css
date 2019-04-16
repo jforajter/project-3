@@ -54,6 +54,9 @@ text-decoration: none;
 #body3{
 	background-color:orange;
 }
+#body4{
+	background-color:red;
+}
 h1{
 	font-size:75px;
 	font-family:Righteous,times,Arial;
@@ -120,4 +123,10 @@ p{
 	height:500px;
 	width:500px;
 	position:relative;
+	display: inline-block;
+	border-style:double;
+	border-width:25px;
+}
+#wrapp{
+	text-align: center;
 }
