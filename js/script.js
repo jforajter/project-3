@@ -1,19 +1,19 @@
       var map;
 	  function initMap() {
+		  var canyon = {lat: 36.0544, lng: -112.1401};
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 36.0544, lng: -112.1401},
+          center: canyon,
           zoom: 8
         });
-		
 		var marker = new google.maps.Marker({
-		  position: tower,
-		  map: map,
-		  animation: google.maps.Animation.BOUNCE,
-		  icon: 'images/marker.png'
-		  });
-
-		  
-		marker.addListener('click', function() {
-		infowindow.open(map, marker);
-	});
+			icon:{
+				path: google.maps.SymbolPath.CIRCLE,
+				scale:150
+			},
+			draggable: true,
+			animation: google.maps.Animation.DROP,
+			position: canyon,
+			map: map,
+			title: 'this is canyon'
+		});
       }
