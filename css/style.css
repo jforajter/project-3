@@ -131,7 +131,7 @@ p{
 	text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
 #mel1, #mel2 {
 	font-size:25px;
 }
