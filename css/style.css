@@ -131,11 +131,21 @@ p{
 	text-align: center;
 }
 
-@media only screen and (max-width: 400px) {
-#mel1, #mel2 {
-	font-size:25px;
-}
-#body {
+@media only screen and (max-width: 1100px) {
+#body2 {
 	background-color: aqua;
+}
+}
+@media only screen and (max-width: 400px) {
+#body2 {
+	background-color: blue;
+}
+h1{
+	font-size: 50px;
+	}
+#mp1{
+	margin:0 auto;
+	height:auto;
+	max-width:50%;
 }
 }
