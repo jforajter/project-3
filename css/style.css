@@ -135,17 +135,59 @@ p{
 #body2 {
 	background-color: aqua;
 }
+h1{
+	font-size: 50px;
+	margin:0 auto;
+	}
+#mel1{
+	padding-top: 15px;
+	padding-bottom:15px;
+	margin:0 auto;
+	font-size:25px;
+	float: none;
+}
+#mp1{
+	margin:0 auto;
+	height:auto;
+	max-width:100%;
+	float: left;
+}
+#mel2{
+	padding-top: 15px;
+	padding-bottom:15px;
+	margin:0 auto;
+	font-size:25px;
+	float: none;
+	
+}
 }
 @media only screen and (max-width: 400px) {
 #body2 {
 	background-color: blue;
 }
 h1{
-	font-size: 50px;
+	font-size: 25px;
+	margin:0 auto;
 	}
+#mel1{
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin:0 auto;
+	font-size:10px;
+	float: none;
+	
+}
 #mp1{
 	margin:0 auto;
 	height:auto;
-	max-width:50%;
+	max-width:100%;
+}
+#mel2{
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin:0 auto;
+	font-size:10px;
+	float: none;
+	
 }
 }
